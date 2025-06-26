@@ -1,0 +1,11 @@
+[project]
+name = "dbt-template"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = "~=3.11"
+dependencies = [
+    "dbt-bigquery>=1.9.2",
+    "sqlfluff>=3.4.1",
+    "sqlfluff-templater-dbt>=3.4.1",
+]
