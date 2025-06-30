@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: covid_stats
+    description: "A starter dbt models"
+    columns:
+      - name: date
+        description: "Date in ISO format. Also the primary key for this table"
+        tests:
+          - not_null
+      - name: country_name
+        description: "Country name"
+        tests:
+          - not_null

@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: covid19_open_data
+    database: data-poc
+    schema: dbt-bq
+    tables:
+      - name: covid19_open_data
