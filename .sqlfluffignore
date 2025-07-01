@@ -1,0 +1,4 @@
+./dbt-bq/reports
+./dbt-bq/target
+./dbt-bq/dbt_packages
+./dbt-bq/macros
